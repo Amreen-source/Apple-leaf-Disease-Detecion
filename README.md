@@ -1,14 +1,25 @@
 # Apple-leaf-Disease-Detecion
 Vision Transformer-Based Approach for Apple Leaf Disease Classification with Multi-Patch Selection
-## Apple-leaf-Disease-Detection
-Vision Transformer-Based Approach for Apple Leaf Disease Classification with Multi-Patch Selection
+## Apple Leaf Disease Classification with Vision Transformer (ViT)
+This repository contains code for classifying apple leaf diseases using a Vision Transformer (ViT) model. The dataset includes images of apple leaves affected by four conditions: Apple Scab, Black Rot, Cedar Apple Rust, and Healthy.
 
-### apple-leaf-disease-classification-via-vits.py.ipynb
-This Jupyter Notebook implements a Vision Transformer-based approach for the classification of apple leaf diseases. It includes the following steps:
-- Data loading and preprocessing
-- Implementation of Vision Transformer (ViT) model
-- Training the model on the apple leaf disease dataset
-- Evaluation and performance metrics
+### Code Overview
+1. Dataset Exploration & Visualization
+Directory Structure: The dataset is organized into Train, Val, and Test directories, each containing subdirectories for disease classes.
+
+Class Distribution:
+
+Training: 7,771 images across 4 classes.
+
+Validation: 1,747 images.
+
+Test: 196 images.
+
+Visualization:
+
+Bar plots show class distribution.
+
+Random images from each class are displayed for visual inspection.
 
 #### Usage
 To run this notebook:
